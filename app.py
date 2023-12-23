@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pygwalker as pyg
 import streamlit.components.v1 as components
-from pygwalker.api.streamlit import StreamlitRenderer, init_streamlit_comm
 
 # set page configurations
 st.set_page_config(
