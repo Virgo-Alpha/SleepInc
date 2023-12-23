@@ -20,8 +20,8 @@ def load_data(path):
 df = load_data("workspace/sleep_health_data.csv")
 
 # Set title and subtitle
-st.title("PygWalker - An intro")
-st.subheader("A simple app to introduce PygWalker")
+st.title("Sleep Better")
+st.subheader("What factors affect the quality and duration of sleep?")
 
 # Display PygWalker
 def load_config(file_path):
@@ -31,9 +31,7 @@ def load_config(file_path):
 
 config = load_config('config.json')
 
-# my df
-st.write(config)
-
+# ! It has both df and config but the hosted one doesn't show the right charts
 
 # The following took quite a bit of iteration
 pyg_html = pyg.walk(df, spec=config, dark='dark', return_html=True)
