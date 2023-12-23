@@ -32,7 +32,7 @@ def load_config(file_path):
 config = load_config('config.json')
 
 # my df
-st.write(df)
+st.write(config)
 
 
 # The following took quite a bit of iteration
