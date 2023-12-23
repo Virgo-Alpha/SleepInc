@@ -31,6 +31,9 @@ def load_config(file_path):
 
 config = load_config('config.json')
 
+# my df
+st.write(df)
+
 
 # The following took quite a bit of iteration
 pyg_html = pyg.walk(df, spec=config, dark='dark', return_html=True)
