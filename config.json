@@ -1,0 +1,1359 @@
+[
+    {
+      "config": {
+        "defaultAggregated": true,
+        "geoms": [
+          "auto"
+        ],
+        "coordSystem": "generic",
+        "limit": -1
+      },
+      "encodings": {
+        "dimensions": [
+          {
+            "dragId": "gw_Mafw",
+            "fid": "Gender",
+            "name": "Gender",
+            "basename": "Gender",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_2_aa",
+            "fid": "Occupation",
+            "name": "Occupation",
+            "basename": "Occupation",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_YYqa",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_O1dG",
+            "fid": "Physical Activity Level",
+            "name": "Physical Activity Level",
+            "basename": "Physical Activity Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_GEsV",
+            "fid": "Stress Level",
+            "name": "Stress Level",
+            "basename": "Stress Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_d8AE",
+            "fid": "BMI Category",
+            "name": "BMI Category",
+            "basename": "BMI Category",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_IMyK",
+            "fid": "Blood Pressure",
+            "name": "Blood Pressure",
+            "basename": "Blood Pressure",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_OMhf",
+            "fid": "Sleep Disorder",
+            "name": "Sleep Disorder",
+            "basename": "Sleep Disorder",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_mea_key_fid",
+            "fid": "gw_mea_key_fid",
+            "name": "Measure names",
+            "analyticType": "dimension",
+            "semanticType": "nominal"
+          }
+        ],
+        "measures": [
+          {
+            "dragId": "gw_H37H",
+            "fid": "Person ID",
+            "name": "Person ID",
+            "basename": "Person ID",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_F87E",
+            "fid": "Age",
+            "name": "Age",
+            "basename": "Age",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_W4Fc",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_pT4H",
+            "fid": "Heart Rate",
+            "name": "Heart Rate",
+            "basename": "Heart Rate",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_0LjW",
+            "fid": "Daily Steps",
+            "name": "Daily Steps",
+            "basename": "Daily Steps",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_7xQb",
+            "fid": "BMI Category Numeric",
+            "name": "BMI Category Numeric",
+            "basename": "BMI Category Numeric",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_count_fid",
+            "fid": "gw_count_fid",
+            "name": "Row count",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum",
+            "computed": true,
+            "expression": {
+              "op": "one",
+              "params": [],
+              "as": "gw_count_fid"
+            }
+          },
+          {
+            "dragId": "gw_mea_val_fid",
+            "fid": "gw_mea_val_fid",
+            "name": "Measure values",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          }
+        ],
+        "rows": [
+          {
+            "dragId": "gw_2ELR",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "mean"
+          }
+        ],
+        "columns": [
+          {
+            "dragId": "gw_yI2O",
+            "fid": "Occupation",
+            "name": "Occupation",
+            "basename": "Occupation",
+            "semanticType": "nominal",
+            "analyticType": "dimension",
+            "sort": "ascending"
+          }
+        ],
+        "color": [
+          {
+            "dragId": "gw_INsX",
+            "fid": "Gender",
+            "name": "Gender",
+            "basename": "Gender",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          }
+        ],
+        "opacity": [],
+        "size": [],
+        "shape": [],
+        "radius": [],
+        "theta": [],
+        "longitude": [],
+        "latitude": [],
+        "geoId": [],
+        "details": [],
+        "filters": [],
+        "text": []
+      },
+      "layout": {
+        "showActions": false,
+        "showTableSummary": false,
+        "stack": "stack",
+        "interactiveScale": false,
+        "zeroScale": true,
+        "size": {
+          "mode": "fixed",
+          "width": 678,
+          "height": 426
+        },
+        "format": {},
+        "geoKey": "name",
+        "resolve": {
+          "x": false,
+          "y": false,
+          "color": false,
+          "opacity": false,
+          "shape": false,
+          "size": false
+        }
+      },
+      "visId": "gw_oAge",
+      "name": "Occupational Analysis"
+    },
+    {
+      "config": {
+        "defaultAggregated": true,
+        "geoms": [
+          "line"
+        ],
+        "coordSystem": "generic",
+        "limit": -1
+      },
+      "encodings": {
+        "dimensions": [
+          {
+            "dragId": "gw_BuIG",
+            "fid": "Gender",
+            "name": "Gender",
+            "basename": "Gender",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_QEhs",
+            "fid": "Occupation",
+            "name": "Occupation",
+            "basename": "Occupation",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_gaSU",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_GCpq",
+            "fid": "Physical Activity Level",
+            "name": "Physical Activity Level",
+            "basename": "Physical Activity Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_8LJu",
+            "fid": "Stress Level",
+            "name": "Stress Level",
+            "basename": "Stress Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_Na2x",
+            "fid": "BMI Category",
+            "name": "BMI Category",
+            "basename": "BMI Category",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_WWRd",
+            "fid": "Blood Pressure",
+            "name": "Blood Pressure",
+            "basename": "Blood Pressure",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_LdHl",
+            "fid": "Sleep Disorder",
+            "name": "Sleep Disorder",
+            "basename": "Sleep Disorder",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_mea_key_fid",
+            "fid": "gw_mea_key_fid",
+            "name": "Measure names",
+            "analyticType": "dimension",
+            "semanticType": "nominal"
+          }
+        ],
+        "measures": [
+          {
+            "dragId": "gw_nxm6",
+            "fid": "Person ID",
+            "name": "Person ID",
+            "basename": "Person ID",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_Y8UE",
+            "fid": "Age",
+            "name": "Age",
+            "basename": "Age",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_45Fb",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_tPka",
+            "fid": "Heart Rate",
+            "name": "Heart Rate",
+            "basename": "Heart Rate",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_cqff",
+            "fid": "Daily Steps",
+            "name": "Daily Steps",
+            "basename": "Daily Steps",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_njHb",
+            "fid": "BMI Category Numeric",
+            "name": "BMI Category Numeric",
+            "basename": "BMI Category Numeric",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_count_fid",
+            "fid": "gw_count_fid",
+            "name": "Row count",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum",
+            "computed": true,
+            "expression": {
+              "op": "one",
+              "params": [],
+              "as": "gw_count_fid"
+            }
+          },
+          {
+            "dragId": "gw_mea_val_fid",
+            "fid": "gw_mea_val_fid",
+            "name": "Measure values",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          }
+        ],
+        "rows": [
+          {
+            "dragId": "gw_Vp5j",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          }
+        ],
+        "columns": [
+          {
+            "dragId": "gw_eNVG",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "mean"
+          }
+        ],
+        "color": [],
+        "opacity": [],
+        "size": [],
+        "shape": [],
+        "radius": [],
+        "theta": [],
+        "longitude": [],
+        "latitude": [],
+        "geoId": [],
+        "details": [],
+        "filters": [],
+        "text": []
+      },
+      "layout": {
+        "showActions": false,
+        "showTableSummary": false,
+        "stack": "stack",
+        "interactiveScale": false,
+        "zeroScale": true,
+        "size": {
+          "mode": "fixed",
+          "width": 573,
+          "height": 398
+        },
+        "format": {},
+        "geoKey": "name",
+        "resolve": {
+          "x": false,
+          "y": false,
+          "color": false,
+          "opacity": false,
+          "shape": false,
+          "size": false
+        }
+      },
+      "visId": "gw_pl8w",
+      "name": "Quantity vs quality"
+    },
+    {
+      "config": {
+        "defaultAggregated": true,
+        "geoms": [
+          "auto"
+        ],
+        "coordSystem": "generic",
+        "limit": -1
+      },
+      "encodings": {
+        "dimensions": [
+          {
+            "dragId": "gw_YfkS",
+            "fid": "Gender",
+            "name": "Gender",
+            "basename": "Gender",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_VCy1",
+            "fid": "Occupation",
+            "name": "Occupation",
+            "basename": "Occupation",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_5K2k",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_KegX",
+            "fid": "Physical Activity Level",
+            "name": "Physical Activity Level",
+            "basename": "Physical Activity Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_CwVV",
+            "fid": "Stress Level",
+            "name": "Stress Level",
+            "basename": "Stress Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_xdFP",
+            "fid": "BMI Category",
+            "name": "BMI Category",
+            "basename": "BMI Category",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_QefF",
+            "fid": "Blood Pressure",
+            "name": "Blood Pressure",
+            "basename": "Blood Pressure",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_gRE7",
+            "fid": "Sleep Disorder",
+            "name": "Sleep Disorder",
+            "basename": "Sleep Disorder",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_mea_key_fid",
+            "fid": "gw_mea_key_fid",
+            "name": "Measure names",
+            "analyticType": "dimension",
+            "semanticType": "nominal"
+          }
+        ],
+        "measures": [
+          {
+            "dragId": "gw_oFaZ",
+            "fid": "Person ID",
+            "name": "Person ID",
+            "basename": "Person ID",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_OOSE",
+            "fid": "Age",
+            "name": "Age",
+            "basename": "Age",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_yIBp",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_Xfqv",
+            "fid": "Heart Rate",
+            "name": "Heart Rate",
+            "basename": "Heart Rate",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_3I5d",
+            "fid": "Daily Steps",
+            "name": "Daily Steps",
+            "basename": "Daily Steps",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_VZ8A",
+            "fid": "BMI Category Numeric",
+            "name": "BMI Category Numeric",
+            "basename": "BMI Category Numeric",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_count_fid",
+            "fid": "gw_count_fid",
+            "name": "Row count",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum",
+            "computed": true,
+            "expression": {
+              "op": "one",
+              "params": [],
+              "as": "gw_count_fid"
+            }
+          },
+          {
+            "dragId": "gw_mea_val_fid",
+            "fid": "gw_mea_val_fid",
+            "name": "Measure values",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          }
+        ],
+        "rows": [
+          {
+            "dragId": "gw_vQSk",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "mean"
+          }
+        ],
+        "columns": [
+          {
+            "dragId": "gw_waVX",
+            "fid": "Physical Activity Level",
+            "name": "Physical Activity Level",
+            "basename": "Physical Activity Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          }
+        ],
+        "color": [],
+        "opacity": [],
+        "size": [],
+        "shape": [],
+        "radius": [],
+        "theta": [],
+        "longitude": [],
+        "latitude": [],
+        "geoId": [],
+        "details": [],
+        "filters": [],
+        "text": []
+      },
+      "layout": {
+        "showActions": false,
+        "showTableSummary": false,
+        "stack": "stack",
+        "interactiveScale": false,
+        "zeroScale": false,
+        "size": {
+          "mode": "fixed",
+          "width": 611,
+          "height": 351
+        },
+        "format": {},
+        "geoKey": "name",
+        "resolve": {
+          "x": false,
+          "y": false,
+          "color": false,
+          "opacity": false,
+          "shape": false,
+          "size": false
+        },
+        "scaleIncludeUnmatchedChoropleth": false,
+        "colorPalette": "",
+        "useSvg": false,
+        "scale": {
+          "opacity": {},
+          "size": {
+            "domainMax": 100,
+            "domainMin": 0,
+            "rangeMax": 100,
+            "rangeMin": 25
+          }
+        }
+      },
+      "visId": "gw_eaaL",
+      "name": "Physical Activity vs Sleep Duration"
+    },
+    {
+      "config": {
+        "defaultAggregated": true,
+        "geoms": [
+          "auto"
+        ],
+        "coordSystem": "generic",
+        "limit": -1
+      },
+      "encodings": {
+        "dimensions": [
+          {
+            "dragId": "gw_ddBk",
+            "fid": "Gender",
+            "name": "Gender",
+            "basename": "Gender",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_fMam",
+            "fid": "Occupation",
+            "name": "Occupation",
+            "basename": "Occupation",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw__tiT",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_zevb",
+            "fid": "Physical Activity Level",
+            "name": "Physical Activity Level",
+            "basename": "Physical Activity Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_wlW5",
+            "fid": "Stress Level",
+            "name": "Stress Level",
+            "basename": "Stress Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_SL2i",
+            "fid": "BMI Category",
+            "name": "BMI Category",
+            "basename": "BMI Category",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_m5DZ",
+            "fid": "Blood Pressure",
+            "name": "Blood Pressure",
+            "basename": "Blood Pressure",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_FUEy",
+            "fid": "Sleep Disorder",
+            "name": "Sleep Disorder",
+            "basename": "Sleep Disorder",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_mea_key_fid",
+            "fid": "gw_mea_key_fid",
+            "name": "Measure names",
+            "analyticType": "dimension",
+            "semanticType": "nominal"
+          }
+        ],
+        "measures": [
+          {
+            "dragId": "gw_9_9e",
+            "fid": "Person ID",
+            "name": "Person ID",
+            "basename": "Person ID",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_yGRT",
+            "fid": "Age",
+            "name": "Age",
+            "basename": "Age",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_NuvY",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_uXkr",
+            "fid": "Heart Rate",
+            "name": "Heart Rate",
+            "basename": "Heart Rate",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_IJlo",
+            "fid": "Daily Steps",
+            "name": "Daily Steps",
+            "basename": "Daily Steps",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_TSRi",
+            "fid": "BMI Category Numeric",
+            "name": "BMI Category Numeric",
+            "basename": "BMI Category Numeric",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_count_fid",
+            "fid": "gw_count_fid",
+            "name": "Row count",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum",
+            "computed": true,
+            "expression": {
+              "op": "one",
+              "params": [],
+              "as": "gw_count_fid"
+            }
+          },
+          {
+            "dragId": "gw_mea_val_fid",
+            "fid": "gw_mea_val_fid",
+            "name": "Measure values",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          }
+        ],
+        "rows": [
+          {
+            "dragId": "gw_lCIC",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          }
+        ],
+        "columns": [
+          {
+            "dragId": "gw_3uK5",
+            "fid": "Stress Level",
+            "name": "Stress Level",
+            "basename": "Stress Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          }
+        ],
+        "color": [],
+        "opacity": [],
+        "size": [],
+        "shape": [],
+        "radius": [],
+        "theta": [],
+        "longitude": [],
+        "latitude": [],
+        "geoId": [],
+        "details": [],
+        "filters": [],
+        "text": []
+      },
+      "layout": {
+        "showActions": false,
+        "showTableSummary": false,
+        "stack": "stack",
+        "interactiveScale": false,
+        "zeroScale": false,
+        "size": {
+          "mode": "fixed",
+          "width": 691,
+          "height": 377
+        },
+        "format": {},
+        "geoKey": "name",
+        "resolve": {
+          "x": false,
+          "y": false,
+          "color": false,
+          "opacity": false,
+          "shape": false,
+          "size": false
+        },
+        "scaleIncludeUnmatchedChoropleth": false,
+        "colorPalette": "",
+        "useSvg": false,
+        "scale": {
+          "opacity": {},
+          "size": {}
+        }
+      },
+      "visId": "gw_Zdl4",
+      "name": "Stress Level vs Sleep Quality"
+    },
+    {
+      "config": {
+        "defaultAggregated": true,
+        "geoms": [
+          "auto"
+        ],
+        "coordSystem": "generic",
+        "limit": -1
+      },
+      "encodings": {
+        "dimensions": [
+          {
+            "dragId": "gw_EpJ_",
+            "fid": "Gender",
+            "name": "Gender",
+            "basename": "Gender",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_BM_A",
+            "fid": "Occupation",
+            "name": "Occupation",
+            "basename": "Occupation",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_iKq3",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_sCkX",
+            "fid": "Physical Activity Level",
+            "name": "Physical Activity Level",
+            "basename": "Physical Activity Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_5CqU",
+            "fid": "Stress Level",
+            "name": "Stress Level",
+            "basename": "Stress Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_3FT9",
+            "fid": "BMI Category",
+            "name": "BMI Category",
+            "basename": "BMI Category",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_Hy4r",
+            "fid": "Blood Pressure",
+            "name": "Blood Pressure",
+            "basename": "Blood Pressure",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_KamV",
+            "fid": "Sleep Disorder",
+            "name": "Sleep Disorder",
+            "basename": "Sleep Disorder",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_mea_key_fid",
+            "fid": "gw_mea_key_fid",
+            "name": "Measure names",
+            "analyticType": "dimension",
+            "semanticType": "nominal"
+          }
+        ],
+        "measures": [
+          {
+            "dragId": "gw_14pq",
+            "fid": "Person ID",
+            "name": "Person ID",
+            "basename": "Person ID",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_2g7V",
+            "fid": "Age",
+            "name": "Age",
+            "basename": "Age",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_ZMwX",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_qH-W",
+            "fid": "Heart Rate",
+            "name": "Heart Rate",
+            "basename": "Heart Rate",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_XwFt",
+            "fid": "Daily Steps",
+            "name": "Daily Steps",
+            "basename": "Daily Steps",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_f373",
+            "fid": "BMI Category Numeric",
+            "name": "BMI Category Numeric",
+            "basename": "BMI Category Numeric",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_count_fid",
+            "fid": "gw_count_fid",
+            "name": "Row count",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum",
+            "computed": true,
+            "expression": {
+              "op": "one",
+              "params": [],
+              "as": "gw_count_fid"
+            }
+          },
+          {
+            "dragId": "gw_mea_val_fid",
+            "fid": "gw_mea_val_fid",
+            "name": "Measure values",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          }
+        ],
+        "rows": [
+          {
+            "dragId": "gw_zP5f",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "mean"
+          }
+        ],
+        "columns": [
+          {
+            "dragId": "gw_Z9MM",
+            "fid": "BMI Category",
+            "name": "BMI Category",
+            "basename": "BMI Category",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          }
+        ],
+        "color": [],
+        "opacity": [],
+        "size": [],
+        "shape": [],
+        "radius": [],
+        "theta": [],
+        "longitude": [],
+        "latitude": [],
+        "geoId": [],
+        "details": [],
+        "filters": [],
+        "text": []
+      },
+      "layout": {
+        "showActions": false,
+        "showTableSummary": false,
+        "stack": "stack",
+        "interactiveScale": false,
+        "zeroScale": true,
+        "size": {
+          "mode": "fixed",
+          "width": 719,
+          "height": 425
+        },
+        "format": {},
+        "geoKey": "name",
+        "resolve": {
+          "x": false,
+          "y": false,
+          "color": false,
+          "opacity": false,
+          "shape": false,
+          "size": false
+        }
+      },
+      "visId": "gw_lg2q",
+      "name": "BMI Category vs Sleep Category"
+    },
+    {
+      "config": {
+        "defaultAggregated": true,
+        "geoms": [
+          "line"
+        ],
+        "coordSystem": "generic",
+        "limit": -1
+      },
+      "encodings": {
+        "dimensions": [
+          {
+            "dragId": "gw_BqQV",
+            "fid": "Gender",
+            "name": "Gender",
+            "basename": "Gender",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_fHDr",
+            "fid": "Occupation",
+            "name": "Occupation",
+            "basename": "Occupation",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_pbd_",
+            "fid": "Quality of Sleep",
+            "name": "Quality of Sleep",
+            "basename": "Quality of Sleep",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_ixa8",
+            "fid": "Physical Activity Level",
+            "name": "Physical Activity Level",
+            "basename": "Physical Activity Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_z_-D",
+            "fid": "Stress Level",
+            "name": "Stress Level",
+            "basename": "Stress Level",
+            "semanticType": "quantitative",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_uQiu",
+            "fid": "BMI Category",
+            "name": "BMI Category",
+            "basename": "BMI Category",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_xPda",
+            "fid": "Daily Steps",
+            "name": "Daily Steps",
+            "basename": "Daily Steps",
+            "analyticType": "dimension",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_9qE1",
+            "fid": "Blood Pressure",
+            "name": "Blood Pressure",
+            "basename": "Blood Pressure",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_09Hm",
+            "fid": "Sleep Disorder",
+            "name": "Sleep Disorder",
+            "basename": "Sleep Disorder",
+            "semanticType": "nominal",
+            "analyticType": "dimension"
+          },
+          {
+            "dragId": "gw_mea_key_fid",
+            "fid": "gw_mea_key_fid",
+            "name": "Measure names",
+            "analyticType": "dimension",
+            "semanticType": "nominal"
+          }
+        ],
+        "measures": [
+          {
+            "dragId": "gw_rq2u",
+            "fid": "Person ID",
+            "name": "Person ID",
+            "basename": "Person ID",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_P1sz",
+            "fid": "Age",
+            "name": "Age",
+            "basename": "Age",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_LXCJ",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_HXCe",
+            "fid": "Heart Rate",
+            "name": "Heart Rate",
+            "basename": "Heart Rate",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_Jgcm",
+            "fid": "BMI Category Numeric",
+            "name": "BMI Category Numeric",
+            "basename": "BMI Category Numeric",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          },
+          {
+            "dragId": "gw_count_fid",
+            "fid": "gw_count_fid",
+            "name": "Row count",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum",
+            "computed": true,
+            "expression": {
+              "op": "one",
+              "params": [],
+              "as": "gw_count_fid"
+            }
+          },
+          {
+            "dragId": "gw_mea_val_fid",
+            "fid": "gw_mea_val_fid",
+            "name": "Measure values",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          }
+        ],
+        "rows": [
+          {
+            "dragId": "gw_OUGM",
+            "fid": "Sleep Duration",
+            "name": "Sleep Duration",
+            "basename": "Sleep Duration",
+            "analyticType": "measure",
+            "semanticType": "quantitative",
+            "aggName": "mean"
+          }
+        ],
+        "columns": [
+          {
+            "dragId": "gw_i4QX",
+            "fid": "Daily Steps",
+            "name": "Daily Steps",
+            "basename": "Daily Steps",
+            "analyticType": "dimension",
+            "semanticType": "quantitative",
+            "aggName": "sum"
+          }
+        ],
+        "color": [],
+        "opacity": [],
+        "size": [],
+        "shape": [],
+        "radius": [],
+        "theta": [],
+        "longitude": [],
+        "latitude": [],
+        "geoId": [],
+        "details": [],
+        "filters": [],
+        "text": []
+      },
+      "layout": {
+        "showActions": false,
+        "showTableSummary": false,
+        "stack": "stack",
+        "interactiveScale": false,
+        "zeroScale": false,
+        "size": {
+          "mode": "fixed",
+          "width": 708,
+          "height": 371
+        },
+        "format": {},
+        "geoKey": "name",
+        "resolve": {
+          "x": false,
+          "y": false,
+          "color": false,
+          "opacity": false,
+          "shape": false,
+          "size": false
+        },
+        "scaleIncludeUnmatchedChoropleth": false,
+        "colorPalette": "",
+        "useSvg": false,
+        "scale": {
+          "opacity": {},
+          "size": {}
+        }
+      },
+      "visId": "gw_4oPh",
+      "name": "Daily Steps vs Sleep Duration"
+    }
+  ]
+  
