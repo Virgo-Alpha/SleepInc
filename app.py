@@ -36,4 +36,4 @@ config = load_config('config.json')
 # The following took quite a bit of iteration
 pyg_html = pyg.walk(df, spec=config, dark='dark', return_html=True)
 
-components.html(pyg_html, height=1000, scrolling=True)
+components.html(pyg_html, height=700, scrolling=True)
